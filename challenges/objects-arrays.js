@@ -11,6 +11,7 @@ const dinosaur1 = {
   weight:'7000kg',
   length:'12m',
   period:'Late Cretaceous',
+  roar:'RAWERSRARARWERSARARARRRR!',
 };
 
 const dinosaur2 = {
@@ -51,8 +52,8 @@ console.log(dinosaur1.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-dinosaur1.sound = function(activity) {
-console.log()};
+
+console.log(dinosaur1.roar);
 
 
 // ==== Arrays ====
