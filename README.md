@@ -32,12 +32,22 @@ Edit this document to include your answers after each question. Make sure to lea
     forEach(), allows the mutation of the original array, and map() returns a new array of the same size.
 
 2. What is the difference between a function and a method?
+    Within the scope of an Object, a function is a method. Functions outside the scope of an Object are not considered methods.
 
 3. What is closure?
+    When an inner function has access to the outter functions, variables even after the outer function has returned.
 
 4. Describe the four rules of the 'this' keyword.
+    Window/Global Object Binding: If a function is written in global context and cosole logged (this), the value of this will be the window or console.
+
+    Implicit Binding: Implied if you are using a method on the Object, the context that you want is bound to the dot. Whenever a function by an Object with a preceding dot the Object gets 'this'.
+
+    New binding: When using a Constructor Function to create a new object we have to use the 'new' keyword when calling the function.
+
+    Explicit binding: Using the call or apply method is explicit binding.
 
 5. Why do we need super() in an extended class?
+    Is used to call the parent class with the parameters passed to the child.
 
 ## Project Set up
 
@@ -47,10 +57,10 @@ Follow these steps to set up and work on your project:
 - [X] Add TL as collaborator on Github.
 - [X] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [X] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [X] You are now ready to build this project with your preferred IDE
+- [X] Implement the project on your Branch, committing changes regularly.
+- [X] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
